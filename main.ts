@@ -24,5 +24,6 @@ const filepath: string = path.join(__dirname, 'reversed.txt');
 console.log(filepath); //Users/yuijensen/module-week6/reversed.txt
 console.log('Files written successfully!!');
 
+//Part 4: Go a step Further
 const noSpaceLetter = countCharactersTwo('Hello world');
-console.log(noSpaceLetter);
+console.log(noSpaceLetter); //10
