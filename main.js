@@ -16,5 +16,6 @@ fs_1.default.writeFileSync('reversed.txt', result);
 var filepath = path_1.default.join(__dirname, 'reversed.txt');
 console.log(filepath); //Users/yuijensen/module-week6/reversed.txt
 console.log('Files written successfully!!');
+//Part 4: Go a step Further
 var noSpaceLetter = (0, stringUtils_1.countCharactersTwo)('Hello world');
-console.log(noSpaceLetter);
+console.log(noSpaceLetter); //10

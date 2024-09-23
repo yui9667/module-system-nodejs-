@@ -9,7 +9,7 @@ export const capitalizeFirstLetter = (str: string): string =>
   str.charAt(0).toUpperCase() + str.slice(1);
 
 //Part 4: Go a step Further
-export const countCharactersTwo = (str: string): any => {
+export const countCharactersTwo = (str: string): number => {
   const charactersSpace = str.split('');
   const filteredCharacter = charactersSpace.filter(
     (item) => item !== ' '
